@@ -25,8 +25,8 @@
 					{{ range $i, $img := $imgs }}
 						{{ if not $.ctx.Site.Params.DisableAlwaysResize }}
 							{{ $resizer := "3000x r0" }}
-							{{ with $img.Exif }}
-								{{ if .Tags }}
+							{{ if $img.Exif }}
+								{{ with $img.Exif }}
 									{{ if eq .Tags.Orientation 6 }}
 										{{ $resizer = "3000x r270" }}
 									{{ end }}
