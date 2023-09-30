@@ -16,6 +16,10 @@
         display: block;
     }
 
+    .section {
+        padding: 0 1rem 3rem 1rem;
+    }
+
     #mobile.section {
         padding: 0 0.8rem 3rem 0.8rem;
     }
