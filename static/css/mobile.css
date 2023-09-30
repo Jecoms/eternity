@@ -71,6 +71,7 @@
     .footer .content {
         display: flex;
         flex-direction: column;
+        text-align: unset;
     }
 
     .footer .socials {
