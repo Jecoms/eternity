@@ -82,6 +82,7 @@
         display: flex;
         justify-content: space-around;
         width: unset;
+        margin: 0;
     }
 
     .footer .social {
@@ -92,5 +93,6 @@
         flex: 1 1 auto;
         display: flex;
         justify-content: center;
+        margin: 0;
     }
 }
