@@ -59,6 +59,10 @@ h6 {
     padding: 3rem 1.5rem 2rem;
 }
 
+.footer .content {
+    text-align: center;
+}
+
 header {
     height: 128px;
     margin-bottom: 30px;
