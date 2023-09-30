@@ -63,6 +63,10 @@ h6 {
     text-align: center;
 }
 
+.footer .socials {
+    display: none;
+}
+
 header {
     height: 128px;
     margin-bottom: 30px;
