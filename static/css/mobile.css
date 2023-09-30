@@ -68,13 +68,13 @@
         padding-bottom: 20px;
     }
 
-    .socials {
+    .footer .socials {
         flex: 1 1 auto;
         display: flex;
         justify-content: space-around;
     }
 
-    .social {
+    .footer .social {
         margin: 0;
     }
 
