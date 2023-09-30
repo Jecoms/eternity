@@ -1,7 +1,10 @@
 @media (max-width: 768px) {
     .slide-info {
-        margin-top: 20px;
         width: 95%;
+    }
+
+    .slide-info h3 {
+        margin-top: 0;
     }
 
     .image-box {
