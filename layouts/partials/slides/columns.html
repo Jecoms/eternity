@@ -33,7 +33,7 @@
 {{ end }}
 
 {{ $posts := slice }}
-{{ if and .ctx.Site.Taxonomies.tags .ctx.Params.Title }}
+{{ if .ctx.Site.Taxonomies.tags }}
 	{{ $posts = index .ctx.Site.Taxonomies.tags .ctx.Params.Title }}
 	{{ $posts = sort $posts ".Params.weight" "desc" }}
 {{ end }}
