@@ -33,7 +33,9 @@
 {{ end }}
 
 {{ $posts := slice }}
-{{ if .ctx.Site.Taxonomies.tags }}
+{{ printf "ctx.Params: %v" .ctx.Params | safeHTML }}
+
+{{ if and .ctx.Site.Taxonomies.tags .ctx.Params.Title }}
 	{{ $posts = index .ctx.Site.Taxonomies.tags .ctx.Params.Title }}
 	{{ $posts = sort $posts ".Params.weight" "desc" }}
 {{ end }}
